@@ -49,7 +49,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 </head>
 <body>
   <div class="login-box">
-    <h1>Zhyper DB</h1>
+    <h1>solo</h1>
     <p>File Manager â€” Enter password</p>
     <form method="post">
       <input type="password" name="password" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" autofocus required>
@@ -362,7 +362,7 @@ $uname_full = php_uname('a');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Zhyper DB</title>
+  <title>solo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Oxanium:wght@700;800&display=swap" rel="stylesheet">
@@ -732,7 +732,7 @@ $uname_full = php_uname('a');
 
   <!-- ===== SIDEBAR ===== -->
   <aside class="sidebar">
-    <div class="sidebar-logo">Zhyper<span>DB</span></div>
+    <div class="sidebar-logo">solo<span>DB</span></div>
 
     <div class="sb-section">
       <div class="sb-section-title">Server Info</div>
