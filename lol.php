@@ -48,9 +48,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   </style>
 </head>
 <body>
-<video autoplay muted loop playsinline id="bg-video">
-  <source src="https://zhyperdb.dev/img/gojo.mp4" type="video/mp4">
-</video>
   <div class="login-box">
     <h1>Zhyper DB</h1>
     <p>File Manager â€” Enter password</p>
@@ -731,9 +728,6 @@ $uname_full = php_uname('a');
   </style>
 </head>
 <body>
-<video autoplay muted loop playsinline id="bg-video">
-  <source src="https://zhyperdb.dev/img/gojo.mp4" type="video/mp4">
-</video>
 <div class="layout">
 
   <!-- ===== SIDEBAR ===== -->
